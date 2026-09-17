@@ -173,7 +173,21 @@
 }
 .btn-avail:hover{background:#e0267a;color:#fff !important}
 
-
+@media (max-width: 991px){
+  .navbar .navbar-nav{display:none !important}
+  .navbar .container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:nowrap;
+  }
+  .navbar .btn{white-space:nowrap;padding:.35rem .8rem;font-size:.8rem}
+  .hero-logo{max-height:72px}
+  .hero-script{font-size:1.05rem;padding:0 .5rem}
+  #home .py-vh-3{padding-top:1.2rem !important;padding-bottom:1.2rem !important}
+  #home .mt-5{margin-top:4.5rem !important}
+}
+	  
   </style>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y279FQL6H3"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Y279FQL6H3');</script>
