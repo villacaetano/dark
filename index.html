@@ -74,17 +74,16 @@
     .social-row a{display:inline-flex;line-height:0}
     .social-row img{display:block;width:22px;height:22px}
     .social-row a:hover{opacity:.7}
+   
     @media (max-width: 991px){
-      .navbar .navbar-nav,
-      .navbar .btn,
-      .navbar-toggler{display:none !important}
-      .navbar .container{display:flex;justify-content:center;align-items:center;flex-wrap:nowrap}
-      .navbar .navbar-brand{margin:0;width:auto}
-      .hero-logo{display:none}
-      #home .mt-5{margin-top:4.2rem !important}
-      #home .py-vh-3{padding-top:1rem !important;padding-bottom:1rem !important}
-      .hero-script{font-size:1.05rem;padding:0 .75rem}
-    }
+  .navbar{display:none !important}
+  .hero-logo{display:block;width:min(280px,70vw);margin:1.2rem auto 1rem}
+  #home .mt-5{margin-top:0 !important}
+  #home .py-vh-3{padding-top:2.2rem !important;padding-bottom:1rem !important}
+  .hero-script{font-size:1.05rem;padding:0 .75rem}
+  .hero-photo{min-height:auto}
+}
+    
   </style>
 </head>
 <body class="bg-black text-white">
